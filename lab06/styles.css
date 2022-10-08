@@ -1,6 +1,5 @@
 p, ul, td, th {font-family:Arial, Helvetica, sans-serif;}
-h1 {color:aqua;}
-h2 {color: brown;}
+h1, h2 {color: brown;}
 .special {color:purple;}
 tr:nth-child(even) {background-color:purple;}
 h1 {font-size: x-large;}
