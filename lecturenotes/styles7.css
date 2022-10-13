@@ -1,0 +1,20 @@
+a:hover {
+    color: #fc8c03;
+}
+a:visited {
+    color: #9d03fc;
+}
+
+body {
+    background-color: #000000;
+}
+p {
+    background-image: url("../images/pumpkin.png");
+    background-repeat: no-repeat;
+}
+.second {
+    border: 2px solid color #fc8c03;
+    margin: 20px;
+    padding: 10px;
+}
+
