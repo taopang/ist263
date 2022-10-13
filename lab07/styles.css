@@ -25,3 +25,4 @@ nav {
 h1, h2 {
     color:#beeab6;
 }
+tr:nth-child(even) {background-color: #4287f5;}
