@@ -22,10 +22,10 @@ nav {
     padding: 10px;
     margin-bottom: 30px;
 }
-h, h1, h2 {
+h1, h2 {
     color:#beeab6;
 }
-h {font-size: 50px;}
+.h {font-size: 50px;}
 tr:nth-child(even) {background-color: #4287f5;}
 
 .image1 {float: left; margin-right: 10px;}
