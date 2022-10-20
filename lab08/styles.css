@@ -1,0 +1,41 @@
+nav a:hover {
+    background-color: #fc8c03;
+}
+a:visited {
+    color: #9d03fc;
+}
+
+body {
+    background-color: #f3f3de;
+    
+}
+p, ul, tr, th, li { color: #6f3408;
+
+}
+nav {
+    background-color: #fa617a;
+}
+nav a {
+    color:#88e5cd;
+}
+nav {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+h, h1, h2 {
+    color:#beeab6;
+}
+h {font-size: 50px;}
+tr:nth-child(even) {background-color: #4287f5;}
+
+.image1 {float: left; margin-right: 10px;}
+.clear {clear:both;}
+.pa {float: right;}
+.part2 {display: flex;}
+.part2 article {padding: 20px;}
+.article1, .article2, .article3 {margin:10px;}
+.article1 {flex:2; order:3; background-color:#cce5ff; border-radius: 1em;}
+.article2 {flex:1; order:2;}
+.article3 {flex:1; order:1;}
+
+
