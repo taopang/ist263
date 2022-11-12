@@ -6,10 +6,10 @@ a:visited {
 }
 
 body {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     
 }
-p, ul, tr, th, li { color: #6f3408;
+p, ul, tr, th, li { color: #000;
 
 }
 nav {
