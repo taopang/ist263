@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #skip {
+            background-color: #ffa500;
+            border: 1px solid #000000;
+            padding: 2px;
+            position: absolute; /* out of page flow for layout */
+            left: -999px;
+        }
+        #skip:focus {
+            left: 10px;
+            top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <a id="skip" tabindex="1" href="#content">Skip to Content</a><br>
+    <!-- # sign in href means bookmark ^^^ link -->
+    <a href="http://www.syr.edu" tabindex="2">SU</a><br>
+    <a href="http://www.amazon.com" tabindex="3">Amazon</a><br>
+    <a href="http://www.google.com" tabindex="4">Google</a>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio vero asperiores tempore fugiat recusandae facilis excepturi, iusto corrupti facere dolorum aut ipsa aperiam mollitia at porro quidem ipsam blanditiis! Obcaecati.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio vero asperiores tempore fugiat recusandae facilis excepturi, iusto corrupti facere dolorum aut ipsa aperiam mollitia at porro quidem ipsam blanditiis! Obcaecati.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio vero asperiores tempore fugiat recusandae facilis excepturi, iusto corrupti facere dolorum aut ipsa aperiam mollitia at porro quidem ipsam blanditiis! Obcaecati.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio vero asperiores tempore fugiat recusandae facilis excepturi, iusto corrupti facere dolorum aut ipsa aperiam mollitia at porro quidem ipsam blanditiis! Obcaecati.</p>
+    <p id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio vero asperiores tempore fugiat recusandae facilis excepturi, iusto corrupti facere dolorum aut ipsa aperiam mollitia at porro quidem ipsam blanditiis! Obcaecati.</p>
+    <!-- this is part of our bookmark link -->
+</body>
+</html>
