@@ -1,6 +1,9 @@
 nav a:hover {
     background-color: #fc8c03;
 }
+header {
+    font-size: 2em;
+}
 a:visited {
     color: #08010d;
 }
@@ -23,7 +26,8 @@ nav {
     margin-bottom: 30px;
 }
 h1, h2 {
-    color: #000;;
+    color: #000;
+    font-size: 1.5em;
     text-align: center;
 }
 .h , h{font-size: 50em;
