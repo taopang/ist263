@@ -1,5 +1,5 @@
 nav a:hover {
-    background-color: #fc8c03;
+    background-color: #ffffff;
 }
 header {
     font-size: 2em;
@@ -16,7 +16,7 @@ p, ul, tr, th, li { color: #000;
 
 }
 nav {
-    background-color: #fc8c03;
+    background-color: #f7d5d5;
 }
 nav a {
     color:#88e5cd;
