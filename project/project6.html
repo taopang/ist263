@@ -18,6 +18,32 @@
         aside {padding: 20px;}
         aside {margin:10px;}
         aside {flex:2; order:3; background-color:#cce5ff; border-radius: 1em;}
+        .row1, .row2 {display: flex;
+            padding: 40px;
+            border-radius: 25px;
+            margin-block: 25px;
+            margin-left: 25px;
+            margin-right:25px;
+            flex-wrap: wrap;
+            float: center;
+            padding-left: 6em;
+        }
+        .row1 div{flex:1;}
+        .row2 div{flex:1;}
+        .row1 {background-color:orange;}
+        .row2 {background-color:orange;}
+        .bing {float: right;}
+        .fen {float: right;}
+        form {
+            padding: 40px;
+            border-radius: 25px;
+            margin-block: 25px;
+            margin-left: 25px;
+            margin-right:25px;
+            flex-wrap: wrap;
+            float: center;
+            
+        }
     </style>
 
 </head>
@@ -26,16 +52,14 @@
     <header>
         <img src="../project/biaozhi.jpeg" width="100" height="100" alt="Chinese Food Guide">
         <nav>
-            <a class="main" href="project5.html">Main</a> 
-            <a class="sichuan" href="sichuan.html">Sichuan</a> 
+            <a class="main" href="project5.html">Main</a> |
+            <a class="sichuan" href="sichuan.html">Sichuan</a> |
             <a class="guangdong" href="yue.html">Guangdong</a>
         </nav>
 
     </header><br>
     <hr />
-    <iframe class="image1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26963836.54930643!2d86.0498526279293!3d34.4144602951423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31508e64e5c642c1%3A0x951daa7c349f366f!2sChina!5e0!3m2!1sen!2sus!4v1667689054713!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-<p> This is a map for you to explore more about Chinese Food</p>
+    
 <aside>
 <h1>Chinese Food</h1>
     <p>Chinese has the history of thousands of years, during the development of economic, Chinese people also 
@@ -59,24 +83,40 @@
     weather. I think Stir-Fry is the best way to show the real flavor of hot chili.</p>
 </aside>
 <br>
+<div class="row1">
+    <div>
     <img src="../project/zhuye1.jpg" width="350" height="350" alt="Chinese Food ">
-    <p>Rock-footed beef is a traditional and famous dish in Leshan City, Sichuan Province, belonging to Sichuan cuisine. Its main raw materials are beef, beef tongue, beef liver, beef spinal cord, beef tendon and so on. The finished dish is delicious, smooth and delicious
-    </p>
+    <p>Rock-footed beef</p>
+    <p>Its main raw materials are beef</p>
+    </div>
+    <div class="bing">
     <img src="../project/zhuye2.jpg" width="350" height="350" alt="Chinese Food ">
-    <p>Beef charcuterie is a local specialty snack in Chengdu, Sichuan. It is mainly made of butter and crispy noodles to make skin-wrapped beef stuffing, made into cakes, and then fried. The beef pancake is golden in color and crispy and delicious.
-    </p><br>
+    <p>Beef charcuterie</p>
+    <p>It is a crispy beef pancake </p>
+    </div>
+    <div class="fen">
     <img src="../project/zhuye3.jpg" width="350" height="350" alt="Chinese Food ">
-    <p>Bingfen has the traditional Bashu flavor. Bingfen is a summer delicacy of Sichuan villagers, and it is very popular because of its smoothness, transparency, coolness, deliciousness and low price!
-    </p>
+    <p>Bingfen </p>
+    <p>Bingfen is a summer delicacy of Sichuan villagers </p>
+    </div>
+</div>
+<div class="row2">
+    <div>
     <img src="../project/zhuye4.jpg" width="350" height="350" alt="Chinese Food ">
-    <p>Xiaolongbao, originally called Xiaolongmantou, is a famous traditional snack of the Han nationality in China. It first appeared in Changzhou, Jiangsu Province during the Tongzhi period of the Qing Dynasty.
-    </p><br>
+    <p>Xiaolongbao </p>
+    <p>It is a traditional snack of the Han nationality in China. </p>
+    </div>
+    <div>
     <img src="../project/zhuye5.jpg" width="350" height="350" alt="Chinese Food ">
-    <p>Tomato brisket pot is a dish, the main ingredients are tomato and brisket. Among them, tomato has the effect of adjusting gastrointestinal function and reducing cholesterol content. It is also rich in vitamin A, vitamin C, vitamin B1, vitamin B2, carotene and calcium, phosphorus, potassium, magnesium, iron, zinc, copper and iodine, etc. Various elements.
-    </p>
+    <p>Tomato brisket pot </p>
+    <p>Cooking by pot is famous in the Guangdong Province. </p>
+    </div>
+    <div>
     <img src="../project/sichuanyu.jpg" width="350" height="350" alt="Chinese Food ">
-    <p>Boiled fish, also known as river boiled river fish and boiled fish fillet, is a famous dish in Sichuan and Chongqing area of ​​China. It belongs to Sichuan cuisine and was first popular in Cuiyun Township, Yubei District, Chongqing City.
-    </p><br>
+    <p>Boiled fish </p>
+    <p>It is famous in Sichuan Province. where people enjoy spicy. </p>
+    </div>
+</div>
 
 
     <form action="https://formspree.io/f/mlevbdej" method="post">
