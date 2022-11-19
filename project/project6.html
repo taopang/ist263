@@ -30,8 +30,12 @@
         }
         .row1 div{flex:1;}
         .row2 div{flex:1;}
-        .row1 {background-color:orange;}
-        .row2 {background-color:orange;}
+        .row1 {background-color:#cce5ff;
+        margin: 4em;
+        margin-top: 3em;
+        }
+        .row2 {background-color:#cce5ff;
+        margin: 4em;}
         .bing {float: right;}
         .fen {float: right;}
         form {
@@ -44,11 +48,14 @@
             float: center;
             
         }
+        .enjoy {float: right;}
     </style>
 
 </head>
 
 <body>
+    <a id="skip" tabindex="-1" href="#content">Skip to Content</a><br>
+
     <header>
         <img src="../project/biaozhi.jpeg" width="100" height="100" alt="Chinese Food Guide">
         <nav>
@@ -83,7 +90,10 @@
     weather. I think Stir-Fry is the best way to show the real flavor of hot chili.</p>
 </aside>
 <br>
-<div class="row1">
+
+
+
+<div class="row1" id="content">
     <div>
     <img src="../project/zhuye1.jpg" width="350" height="350" alt="Chinese Food ">
     <p>Rock-footed beef</p>
@@ -139,8 +149,9 @@
     <footer>
         
         <hr>
-        &copy;Chinese Food Tao
-        <p>
+        &copy;Chinese Food Tao<br>
+        <a href="../lab11/contact.html">Contact Info</a>
+        <p class="enjoy">
         Enjoy
         </p>
         </footer>
