@@ -9,53 +9,189 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <style> @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Open+Sans:wght@300&display=swap'); </style>
     <style>
+        main {float: right;}
+        main {display: flex;}
+        main {padding: 20px;}
+        main {margin:10px;}
+        main {flex:2; order:3; background-color:#cce5ff; border-radius: 1em;}
         body {font-family: 'Open Sans', sans-serif;}
+        .row1, .row2 {display: flex;
+            padding: 40px;
+            border-radius: 25px;
+            margin-block: 25px;
+            margin-left: 25px;
+            margin-right:25px;
+            flex-wrap: wrap;
+            
+            padding-left: 6em;
+        }
+        .row1 div{flex:1;}
+        .row2 div{flex:1;}
+        .row1 {background-color:#cce5ff;
+        margin: 4em;
+        margin-top: 3em;
+        }
+        .row2 {background-color:#cce5ff;
+        margin: 4em;}
+        nav {
+            float: right;
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    .checked {
+      color: orange;
+    }
+    .topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+.icon {
+    float: right;
+
+}
+.topnav a {
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+}
     </style>
 </head>
 <body>
-    <img src="../project/biaozhi.jpeg" width="100" height="100" alt="Chinese Food Guide">
+    <!--<img src="../project/biaozhi.jpeg" width="100" height="100" alt="Chinese Food Guide">
 
     <nav>
-        <a href="project5.html">Main</a> 
+        <a href="project6.html">Main</a> 
         <a href="sichuan.html">Sichuan</a> 
         <a href="yue.html">Guangdong</a>
     </nav>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7063596.025383827!2d102.94979!3d30.1793799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x36e4e73368bdcdb3%3A0xde8f7ccf8f99feb9!2sSichuan%2C%20China!5e0!3m2!1sen!2sus!4v1667693259365!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <hr />
+-->
+<!-- Simulate a smartphone / tablet look -->
+<div class="mobile-container">
 
-    <img src="../project/zhuye6.jpg" width="350" height="350" alt="Chinese Food ">
-    <p>Hot Pot</p>
-    <img src="../project/niu4.jpg" width="350" height="350" alt="Chinese Food ">
-    <p>Hot Pot Beef</p>
-    <img src="../project/cailiao.jpg" width="350" height="350" alt="Chinese Food ">
-    <p>Hot Pot You Tiao</p><br>
-    <p>
-        Sichuan province, where has the cutest animal in the world, Panda. People almost eat everything there 
-with spicy. My favorite part of Sichuan food is hotpot.
-Hotpot is using the soup that you choose to boil raw food by yourself, for example there are mushroom 
-soup, tomato soup, chili soup, and even fish soup.
-You can put all kinds of food inside the soup, any meat that you want to eat, any vegetable you can image. 
-When the food is cooked, you can use the dipping sauce to make it even better.
-    </p>
-    <p>
-        Spicy chicken is a classic home-cooked dish. It is generally made of whole chicken as the main ingredient, plus onions, dried peppers, peppercorns, salt, pepper, monosodium glutamate and other materials. feature.
-Spicy chicken has different characteristics due to different production methods in different places, and is deeply loved by people from all over the world. This dish is brownish-red and oily in color and has a strong spicy taste.
-    </p>
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <img src="../project/biaozhi.jpeg" hrefwidth="100" height="100" alt="Chinese Food Guide">
+      <div id="myLinks">
+        <a href="project6.html">main</a>
+        <a href="sichuan.html">Sichuan</a>
+        <a href="yue.html">Guangdong</a>
+      </div>
+      <image src="../project/ham.png" width="100" height="100" class="icon" onclick="myFunction()">
+      </a>
+    </div>
     
-    <img src="../project/sichuanyu2.jpg" width="350" height="350" alt="Chinese Food ">
+    
+    
+    <!-- End smartphone / tablet look -->
+    </div>
+    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
+    <hr />
+    <main>
+        <iframe width="80%" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2915.396497527704!2d-76.09840248460635!3d43.0541277989791!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d9f32813f36eef%3A0x1a9b09cc604b4856!2sRed%20Chili%20Restaurant%20-%20Syracuse!5e0!3m2!1sen!2sus!4v1671072944074!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>
+            (1)Sichuan province, where has the cutest animal in the world, Panda. People almost eat everything there 
+    with spicy. My favorite part of Sichuan food is hotpot.
+    Hotpot is using the soup that you choose to boil raw food by yourself, for example there are mushroom 
+    soup, tomato soup, chili soup, and even fish soup.
+    You can put all kinds of food inside the soup, any meat that you want to eat, any vegetable you can image. 
+    When the food is cooked, you can use the dipping sauce to make it even better.</br>
+        
+            (2)Spicy chicken is a classic home-cooked dish. It is generally made of whole chicken as the main ingredient, plus onions, dried peppers, peppercorns, salt, pepper, monosodium glutamate and other materials. feature.
+    Spicy chicken has different characteristics due to different production methods in different places, and is deeply loved by people from all over the world. This dish is brownish-red and oily in color and has a strong spicy taste.
+    <br>Here is a Syracuse Local Restaurant for you to explore more about Sichuan cuisine
+
+        </p>
+
+
+    </main>
+<div class="row1">
+    <div>
+    <img src="../project/si1.jpg" width="80%" alt="">
+    <p>Hot Pot</p>
+    <h2>Personal Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+    </div>
+    <div>
+    <img src="../project/si2.jpg" width="80%" alt="">
+    <p>Hot Pot Beef</p>
+    <h2>Personal Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+    </div>
+    <div>
+    <img src="../project/si3.jpg" width="80%" alt="">
+    <p>Hot Pot You Tiao</p>
+    <h2>Personal Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+
+    </div>
+</div>
+
+<div class="row2">
+    <div>
+    <img src="../project/si4.jpg" width="80%" alt="">
     <p>Boiled Fish</p>
-    <img src="../project/sichuanji.jpg" width="350" height="350" alt="Chinese Food ">
+    <h2>Personal Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+    </div>
+    <div>
+    <img src="../project/si5.jpg" width="80%" alt="">
     <p>Spicy Chicken</p>
+    <h2>Personal Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+    </div>
+</div>
 
 
-
+<label for="completion">Progress in viewing my website</label>
+    <progress id="completion" value="2" max="3"></progress>
 </body>
 <footer>
         
     <hr>
-    &copy;Chinese Food Tao
-    <p>
+    &copy;Chinese Food Tao<br>
+    <a href="../lab11/contact.html">Contact Info</a>
+    <p class="enjoy">
     Enjoy
     </p>
-    </footer>
+</footer>
 </html>

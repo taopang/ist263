@@ -9,46 +9,183 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <style> @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Open+Sans:wght@300&display=swap'); </style>
     <style>
+        .row1, .row2 {display: flex;
+            padding: 40px;
+            border-radius: 25px;
+            margin-block: 25px;
+            margin-left: 25px;
+            margin-right:25px;
+            flex-wrap: wrap;
+            
+            padding-left: 6em;
+        }
+        .row1 div{flex:1;}
+        .row2 div{flex:1;}
+        .row1 {background-color:#cce5ff;
+        margin: 4em;
+        margin-top: 3em;
+        }
+        .row2 {background-color:#cce5ff;
+        margin: 4em;}
         body {font-family: 'Open Sans', sans-serif;}
+        nav {
+            float: right;
+        }
+        main {float: left;}
+        main {display: flex;}
+        main {padding: 20px;}
+        main {margin:10px;
+        justify-content: left;
+        }
+        main {flex:2; order:3; background-color:#cce5ff; border-radius: 1em;}
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    .checked {
+      color: orange;
+    }
+    .topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+.icon {
+    float: right;
+
+}
+.topnav a {
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+}
     </style>
 </head>
 <body>
+    <!--
     <img src="../project/biaozhi.jpeg" width="100" height="100" alt="Chinese Food Guide">
 
     <nav>
-        <a href="project5.html">Main</a> 
+        <a href="project6.html">Main</a> 
         <a href="sichuan.html">Sichuan</a> 
         <a href="yue.html">Guangdong</a>
     </nav>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3766918.289350988!2d111.24745840622953!3d22.779066148449264!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x315285f132af5c3f%3A0x2ed41c6f09259f29!2sGuangdong%20Province%2C%20China!5e0!3m2!1sen!2sus!4v1667694573821!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    --><!-- Simulate a smartphone / tablet look -->
+<div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <img src="../project/biaozhi.jpeg" hrefwidth="100" height="100" alt="Chinese Food Guide">
+      <div id="myLinks">
+        <a href="project6.html">main</a>
+        <a href="sichuan.html">Sichuan</a>
+        <a href="yue.html">Guangdong</a>
+      </div>
+      <image src="../project/ham.png" width="100" height="100" class="icon" onclick="myFunction()">
+      </a>
+    </div>
+    
+    
+    
+    <!-- End smartphone / tablet look -->
+    </div>
+    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
     <hr />
-
-    <img src="../project/yue1.jpg" width="350" height="350" alt="Chinese Food ">
+<div class="row1">
+    <div>
+    <img src="../project/y1.jpg" width="80%" alt="">
     <p>Char Siew Pork</p>
-    <img src="../project/yue2.jpg" width="350" height="350" alt="Chinese Food ">
+    <h2>Personal Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+    </div>
+    <div>
+    <img src="../project/y2.jpg" width="80%" alt="">
     <p>Shrimp Dumpling</p>
-    <img src="../project/yue3.jpg" width="350" height="350" alt="Chinese Food ">
-    <p>Hong Kong Style Chicken Feet</p><br>
+    <h2>Personal Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+    </div>
+    <div>
+    <img src="../project/y3.jpg" width="80%" alt="">
+    <p>Hong Kong Style Chicken Feet</p>
+    <h2>Personal Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+    </div>
+</div>
+
+<main>
+    <details>
+    <summary>Click here to explore More</summary>
     <p>
-        Shrimp dumpling is a special snack in Guangzhou, Guangdong Province, belonging to Cantonese cuisine. The half-moon-shaped and spider belly have twelve pleats, and the fillings are shrimp, meat, and bamboo shoots. The taste is delicious, smooth and delicious.
+        (1)Shrimp dumpling is a special snack in Guangzhou, Guangdong Province, belonging to Cantonese cuisine. The half-moon-shaped and spider belly have twelve pleats, and the fillings are shrimp, meat, and bamboo shoots. The taste is delicious, smooth and delicious.
 Development of shrimp dumplings: black truffle shrimp dumplings, typhoon shelter shrimp dumplings, Gongfu soup shrimp dumplings, crystal shrimp dumplings, and mother-in-law shrimp dumplings.
-    </p>
-    <p>Char Siew Pork is a very representative dish in Cantonese cuisine. Barbecue pork is a type of barbecue meat, which refers to pork and poultry meat that has passed the veterinary inspection, and is added with soy sauce, salt, sugar, wine and other seasonings. It is a kind of cooked meat product, which is a kind of Cantonese roasted meat. Mostly red, made of lean meat, slightly sweet. It is to hang the marinated lean pork on a special fork and grill it in the oven. A good barbecued pork should be tender, juicy, brightly colored and full of flavor. Among them, the balance of fat and lean meat is the best, which is called "semi-fat and lean".</p>
-
-    <img src="../project/yue4.jpg" width="350" height="350" alt="Chinese Food ">
+    <br>
+        (2)Char Siew Pork is a very representative dish in Cantonese cuisine. Barbecue pork is a type of barbecue meat, which refers to pork and poultry meat that has passed the veterinary inspection, and is added with soy sauce, salt, sugar, wine and other seasonings. It is a kind of cooked meat product, which is a kind of Cantonese roasted meat. Mostly red, made of lean meat, slightly sweet. It is to hang the marinated lean pork on a special fork and grill it in the oven. A good barbecued pork should be tender, juicy, brightly colored and full of flavor. Among them, the balance of fat and lean meat is the best, which is called "semi-fat and lean".</p>
+    </details>
+</main>
+<br>
+<div class="row2">
+    <div>
+    <img src="../project/y4.jpg" width="80%" alt="">
     <p>Rock Sugar Pork Belly</p>
-    <img src="../project/yue5.jpg" width="350" height="350" alt="Chinese Food ">
+    <h2>Personal Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+    </div>
+    <div>
+    <img src="../project/y5.jpg" width="80%" alt="">
     <p>Poplar Nectar</p>
+    <h2>Personal Rating</h2>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+    </div>
+</div>
 
-
+<label for="completion">Progress in viewing my website</label>
+    <progress id="completion" value="3" max="3"></progress>
 </body>
 
 <footer>
         
     <hr>
-    &copy;Chinese Food Tao
-    <p>
+    &copy;Chinese Food Tao<br>
+    <a href="../lab11/contact.html">Contact Info</a>
+    <p class="enjoy">
     Enjoy
     </p>
-    </footer>
+</footer>
 </html>

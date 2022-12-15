@@ -18,7 +18,12 @@
         main {display: flex;}
         main {padding: 20px;}
         main {margin:10px;}
-        main {flex:2; order:3; background-color:#cce5ff; border-radius: 1em;}
+        main {flex:2; 
+            order:3; 
+            background-color:#cce5ff; 
+            border-radius: 1em;
+            word-break: break-all;
+        }
         .row1, .row2 {display: flex;
             padding: 40px;
             border-radius: 25px;
@@ -49,40 +54,99 @@
             
         }
         .enjoy {float: right;}
+        @media only screen and (min-width: 600px) {
+                
+            }
+            
+
+.topnav {
+  overflow: hidden;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+.icon {
+    float: right;
+
+}
+.topnav a {
+  float: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  float: right;
+}
+
+
+        
     </style>
 
 </head>
 
 <body>
-    <a id="skip" tabindex="-1" href="#content">Skip to Content</a><br>
+    <a id="skip" tabindex="-1" href="#content"></a><br>
 
     <header>
-        <img src="../project/biaozhi.jpeg" width="100" height="100" alt="Chinese Food Guide">
+        <!--<img src="../project/biaozhi.jpeg" width="100" height="100" alt="Chinese Food Guide">
         <nav>
-            <a class="main" href="project5.html">Main</a> |
+            <a class="main" href="project6.html">Main</a> |
             <a class="sichuan" href="sichuan.html">Sichuan</a> |
             <a class="guangdong" href="yue.html">Guangdong</a>
         </nav>
+    -->
+        
+    <!-- Simulate a smartphone / tablet look -->
+<div class="mobile-container">
+
+    <!-- Top Navigation Menu -->
+    <div class="topnav">
+        <img src="../project/biaozhi.jpeg" hrefwidth="100" height="100" alt="Chinese Food Guide">
+      <div id="myLinks">
+        <a href="project6.html"><strong>main</strong></a>
+        <a href="sichuan.html">Sichuan</a>
+        <a href="yue.html">Guangdong</a>
+      </div>
+      <image src="../project/ham.png" width="100" height="100" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
+    
+    
+    <!-- End smartphone / tablet look -->
+    </div>
+    
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>    
 
     </header><br>
     <hr/>
     
 <main>
-<h1>Chinese Food</h1>
     <p>Chinese has the history of thousands of years, during the development of economic, Chinese people also 
     develop different kinds of food among the country
-</p>
-<p>First of all, the custom reason, what people eat in certain geography region is because of local products 
+        <br>    (1)The custom reason, what people eat in certain geography region is because of local products 
     and customs, for example, there are more cattle and sheep in the North part of China, so people may cook 
     with beef and mutton. In southern China, there are more aquatic products and poultry, so people like eat 
     fish, chicken and duck. For the coastal regions, there are more seafood dishes on the table.
-</p>
-<p>Secondly, there are also climate reasons. Different climates can form different tastes, generally speaking, 
+        <br>(2)There are also climate reasons. Different climates can form different tastes, generally speaking, 
     in north China people are more likely to cook their food thick and salty. For the east part of China, for 
     example in Shanghai, there are sweet and sour ribs, the climate is mild, dishes are more likely to be sweet 
     and salty. The south part of China, where the weather is rainy and humid, dishes are often spicy.
-</p>
-<p>Thirdly, different cooking method, Cooking methods vary from place to place, which forms different 
+        <br>(3)Different cooking method, Cooking methods vary from place to place, which forms different 
     characteristics of dishes. For example, in Shandong province, which is located in the north part of China 
     cuisine are good at fried, roasted. There are Four-Joy meatballs, which is served with fried meatballs. In 
     Sichuan province, which is located in the south part of China, where people cook their food by methods of 
@@ -95,34 +159,34 @@
 
 <div class="row1" id="content">
     <div>
-    <img src="../project/zhuye1.jpg" width="350" height="350" alt="">
+    <img src="../project/zhu1.JPG"  width="80%" alt="">
     <p>Rock-footed beef</p>
     <p>Its main raw materials are beef</p>
     </div>
     <div class="bing">
-    <img src="../project/zhuye2.jpg" width="350" height="350" alt="">
+    <img src="../project/zhu2.JPG"  width="80%" alt="">
     <p>Beef charcuterie</p>
     <p>It is a crispy beef pancake </p>
     </div>
     <div class="fen">
-    <img src="../project/zhuye3.jpg" width="350" height="350" alt="">
+    <img src="../project/zhu31.jpg"  width="80%" alt="">
     <p>Bingfen </p>
     <p>Bingfen is a summer delicacy of Sichuan villagers </p>
     </div>
 </div>
 <div class="row2">
     <div>
-    <img src="../project/zhuye4.jpg" width="350" height="350" alt="">
+    <img src="../project/zhu41.jpg"  width="80%" alt="">
     <p>Xiaolongbao </p>
-    <p>It is a traditional snack of the Han nationality in China. </p>
+    <p>It is a traditional snack in China. </p>
     </div>
     <div>
-    <img src="../project/zhuye5.jpg" width="350" height="350" alt="">
+    <img src="../project/zhu5.jpg"  width="80%" alt="">
     <p>Tomato brisket pot </p>
-    <p>Cooking by pot is famous in the Guangdong Province. </p>
+    <p>Cooking by pot is famous in Guangdong. </p>
     </div>
     <div>
-    <img src="../project/sichuanyu.jpg" width="350" height="350" alt="">
+    <img src="../project/zhu6.jpg"  width="80%" alt="">
     <p>Boiled fish </p>
     <p>It is famous in Sichuan Province. where people enjoy spicy. </p>
     </div>
@@ -146,6 +210,8 @@
         <input type="submit" value="submit form">
 
     </form>
+    <label for="completion">Progress in viewing my website</label>
+    <progress id="completion" value="1" max="3"></progress>
     <footer>
         
         <hr>
@@ -154,7 +220,7 @@
         <p class="enjoy">
         Enjoy
         </p>
-        </footer>
+    </footer>
 
 </body>
 </html>
