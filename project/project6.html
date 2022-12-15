@@ -25,15 +25,17 @@
             word-break: break-all;
         }
         .row1, .row2 {display: flex;
-            padding: 40px;
+            padding: 50px;
             border-radius: 25px;
             margin-block: 25px;
             margin-left: 25px;
             margin-right:25px;
             flex-wrap: wrap;
-            
             padding-left: 6em;
+            
+            
         }
+        img {width: 80%;}
         .row1 div{flex:1;}
         .row2 div{flex:1;}
         .row1 {background-color:#cce5ff;
@@ -41,7 +43,9 @@
         margin-top: 3em;
         }
         .row2 {background-color:#cce5ff;
-        margin: 4em;}
+        margin: 4em;
+        margin-top: 3em;
+        }
         
         form {
             padding: 40px;
@@ -60,13 +64,9 @@
             margin-left: 25px;
             margin-right:25px;
             flex-wrap: wrap;
-            
-            
         }
         .enjoy {float: right;}
-        @media only screen and (min-width: 600px) {
-                
-            }
+        
             
 
 .topnav {
@@ -91,9 +91,12 @@
 .topnav a.icon {
   float: right;
 }
+@media (max-width: 800px) {
+  .row1, .row2 {
+    flex-direction: column;
+  }
+}
 
-
-        
     </style>
 
 </head>
@@ -115,15 +118,15 @@
 
     <!-- Top Navigation Menu -->
     <div class="topnav">
-        <img src="../project/biaozhi.jpeg" hrefwidth="100" height="100" alt="Chinese Food Guide">
+        <img src="../project/biaozhi.jpeg" width="100" height="100" alt="Chinese Food Guide">
       <div id="myLinks">
         <a href="project6.html">main</a>
         <a href="sichuan.html">Sichuan</a>
         <a href="yue.html">Guangdong</a>
       </div>
-      <image src="../project/ham.png" width="100" height="100" class="icon" onclick="myFunction()">
+      <img src="../project/ham.png" width="100" height="100" class="icon" onclick="myFunction()" alt="websitelogo">
         <i class="fa fa-bars"></i>
-      </a>
+      
     </div>
     
     
@@ -143,7 +146,6 @@
     </script>    
 
     </header><br>
-    <hr/>
     
 <main>
     <p>Chinese has the history of thousands of years, during the development of economic, Chinese people also 
@@ -169,34 +171,34 @@
 
 <div class="row1" id="content">
     <div>
-    <img src="../project/zhu1.JPG"  width="80%" alt="">
+    <img src="../project/zhu1.JPG"   alt="">
     <p>Rock-footed beef</p>
     <p>Its main raw materials are beef</p>
     </div>
     <div class="bing">
-    <img src="../project/zhu2.JPG"  width="80%" alt="">
+    <img src="../project/zhu2.JPG"   alt="">
     <p>Beef charcuterie</p>
     <p>It is a crispy beef pancake </p>
     </div>
     <div class="fen">
-    <img src="../project/zhu31.jpg"  width="80%" alt="">
+    <img src="../project/zhu31.jpg"   alt="">
     <p>Bingfen </p>
     <p>Bingfen is a summer delicacy of Sichuan villagers </p>
     </div>
 </div>
 <div class="row2">
     <div>
-    <img src="../project/zhu41.jpg"  width="80%" alt="">
+    <img src="../project/zhu41.jpg"   alt="">
     <p>Xiaolongbao </p>
     <p>It is a traditional snack in China. </p>
     </div>
     <div>
-    <img src="../project/zhu5.jpg"  width="80%" alt="">
+    <img src="../project/zhu5.jpg"   alt="">
     <p>Tomato brisket pot </p>
     <p>Cooking by pot is famous in Guangdong. </p>
     </div>
     <div>
-    <img src="../project/zhu6.jpg"  width="80%" alt="">
+    <img src="../project/zhu6.jpg"   alt="">
     <p>Boiled fish </p>
     <p>It is famous in Sichuan Province. where people enjoy spicy. </p>
     </div>
